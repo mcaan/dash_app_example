@@ -18,7 +18,7 @@ server = app.server
 app.css.append_css({"external_url": "https://codepen.io/chriddyp/pen/bWLwgP.css"})
 
 df = pd.read_csv(
-    'C:/Users/Caanikaze/Documents/ESADE/CC/Session 9 - Data Science in the cloud Deployment/dash_app_example/nama_10_gdp_1_Data.csv')
+    'nama_10_gdp_1_Data.csv')
 
 df1 = df[df['UNIT'] == 'Current prices, million euro']
 available_indicators = df['NA_ITEM'].unique()
